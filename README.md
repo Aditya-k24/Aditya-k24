@@ -76,15 +76,13 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app?username=Aditya-k24&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya-k24&layout=compact&theme=dracula&hide_border=false&border_radius=5&langs_count=8" height="150" alt="top languages" />
 </div>
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aditya-k24/Aditya-k24/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aditya-k24/Aditya-k24/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Aditya-k24/Aditya-k24/output/pacman-contribution-graph.svg">
-</picture>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aditya-k24&theme=dracula&area=true&hide_border=false&radius=8" width="100%" alt="contribution graph" />
+</div>
 
 ###
