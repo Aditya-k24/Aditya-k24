@@ -1,6 +1,6 @@
 <h1 align="center">Hey 👋 I'm Aditya!</h1>
 
-<h3 align="center">MS CS @ NC State &nbsp;·&nbsp; AI / Backend Engineer &nbsp;·&nbsp; Building at the intersection of AI & Systems</h3>
+<h3 align="center">MS CS @ NC State &nbsp;·&nbsp; AI / Full-Stack Engineer &nbsp;·&nbsp; Building at the intersection of AI & Systems</h3>
 
 ###
 
