@@ -1,0 +1,101 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .trace { stroke: #1b2a3a; stroke-width: 2; fill: none; }
+      .pulse { stroke-width: 2; fill: none; stroke-dasharray: 14 260; stroke-linecap: round; }
+      .p-cy { stroke: #00fff9; animation: flow 3.2s linear infinite; }
+      .p-mg { stroke: #ff00c1; animation: flow 4.1s linear infinite; }
+      .p-gr { stroke: #0aff9d; animation: flow 3.7s linear infinite; }
+      .p-am { stroke: #ffb000; animation: flow 4.6s linear infinite; }
+      @keyframes flow { from { stroke-dashoffset: 274; } to { stroke-dashoffset: 0; } }
+      .chip { fill: #0d1424; stroke: #1b2a3a; stroke-width: 1.5; }
+      .chip-label { fill: #e6edf3; font-size: 13px; font-weight: bold; }
+      .cat { font-size: 11px; letter-spacing: 2px; }
+      .corepulse { animation: corepulse 2.5s ease-in-out infinite; transform-origin: 450px 210px; }
+      @keyframes corepulse { 0%,100% { opacity: 0.25; transform: scale(1); } 50% { opacity: 0.6; transform: scale(1.12); } }
+    </style>
+    <filter id="cglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="418" rx="12" fill="#05060f" stroke="#1b2a3a" stroke-width="2"/>
+  <text x="30" y="34" class="mono cat" fill="#2dd4bf">// TECH_MATRIX :: SIGNALS FLOWING THROUGH THE CORE</text>
+
+  <!-- ==================== traces (base) ==================== -->
+  <g class="trace">
+    <!-- left: languages -->
+    <path id="t1" d="M 385 190 H 260 V 110 H 160"/>
+    <path id="t2" d="M 385 200 H 240 V 160 H 160"/>
+    <path id="t3" d="M 385 220 H 240 V 260 H 160"/>
+    <path id="t4" d="M 385 230 H 260 V 310 H 160"/>
+    <!-- right: infra -->
+    <path id="t5" d="M 515 190 H 640 V 110 H 740"/>
+    <path id="t6" d="M 515 200 H 660 V 160 H 740"/>
+    <path id="t7" d="M 515 220 H 660 V 260 H 740"/>
+    <path id="t8" d="M 515 230 H 640 V 310 H 740"/>
+    <!-- top: AI -->
+    <path id="t9"  d="M 420 175 V 130 H 330 V 90"/>
+    <path id="t10" d="M 450 175 V 90"/>
+    <path id="t11" d="M 480 175 V 130 H 570 V 90"/>
+    <!-- bottom: web/data -->
+    <path id="t12" d="M 400 245 V 300 H 265 V 340"/>
+    <path id="t13" d="M 435 245 V 312 H 410 V 340"/>
+    <path id="t14" d="M 465 245 V 312 H 540 V 340"/>
+    <path id="t15" d="M 500 245 V 300 H 675 V 340"/>
+  </g>
+
+  <!-- ==================== pulses ==================== -->
+  <g filter="url(#cglow)">
+    <use href="#t1" class="pulse p-cy"/><use href="#t2" class="pulse p-cy" style="animation-delay:-1.1s"/>
+    <use href="#t3" class="pulse p-cy" style="animation-delay:-2.2s"/><use href="#t4" class="pulse p-cy" style="animation-delay:-0.6s"/>
+    <use href="#t5" class="pulse p-gr"/><use href="#t6" class="pulse p-gr" style="animation-delay:-1.4s"/>
+    <use href="#t7" class="pulse p-gr" style="animation-delay:-2.6s"/><use href="#t8" class="pulse p-gr" style="animation-delay:-0.9s"/>
+    <use href="#t9" class="pulse p-mg"/><use href="#t10" class="pulse p-mg" style="animation-delay:-1.5s"/>
+    <use href="#t11" class="pulse p-mg" style="animation-delay:-2.8s"/>
+    <use href="#t12" class="pulse p-am"/><use href="#t13" class="pulse p-am" style="animation-delay:-1.2s"/>
+    <use href="#t14" class="pulse p-am" style="animation-delay:-2.4s"/><use href="#t15" class="pulse p-am" style="animation-delay:-3.3s"/>
+  </g>
+
+  <!-- ==================== core ==================== -->
+  <rect x="370" y="160" width="160" height="100" rx="10" fill="#00fff9" class="corepulse"/>
+  <rect x="385" y="175" width="130" height="70" rx="8" fill="#0d1424" stroke="#00fff9" stroke-width="2"/>
+  <text x="450" y="205" text-anchor="middle" class="mono chip-label" fill="#00fff9" font-size="16">A.K. CORE</text>
+  <text x="450" y="228" text-anchor="middle" class="mono" fill="#8b949e" font-size="10">v26.7 · overclocked</text>
+
+  <!-- ==================== chips: languages (left, cyan) ==================== -->
+  <text x="105" y="70" text-anchor="middle" class="mono cat" fill="#00fff9">LANGUAGES</text>
+  <g class="mono">
+    <rect x="50" y="95" width="110" height="30" rx="6" class="chip"/><text x="105" y="115" text-anchor="middle" class="chip-label">TypeScript</text>
+    <rect x="50" y="145" width="110" height="30" rx="6" class="chip"/><text x="105" y="165" text-anchor="middle" class="chip-label">Python</text>
+    <rect x="50" y="245" width="110" height="30" rx="6" class="chip"/><text x="105" y="265" text-anchor="middle" class="chip-label">Java</text>
+    <rect x="50" y="295" width="110" height="30" rx="6" class="chip"/><text x="105" y="315" text-anchor="middle" class="chip-label">C++</text>
+  </g>
+
+  <!-- ==================== chips: infra (right, green) ==================== -->
+  <text x="795" y="70" text-anchor="middle" class="mono cat" fill="#0aff9d">INFRA</text>
+  <g class="mono">
+    <rect x="740" y="95" width="110" height="30" rx="6" class="chip"/><text x="795" y="115" text-anchor="middle" class="chip-label">Kubernetes</text>
+    <rect x="740" y="145" width="110" height="30" rx="6" class="chip"/><text x="795" y="165" text-anchor="middle" class="chip-label">Docker</text>
+    <rect x="740" y="245" width="110" height="30" rx="6" class="chip"/><text x="795" y="265" text-anchor="middle" class="chip-label">AWS · GCP</text>
+    <rect x="740" y="295" width="110" height="30" rx="6" class="chip"/><text x="795" y="315" text-anchor="middle" class="chip-label">Grafana</text>
+  </g>
+
+  <!-- ==================== chips: AI (top, magenta) ==================== -->
+  <g class="mono">
+    <rect x="270" y="60" width="120" height="30" rx="6" class="chip"/><text x="330" y="80" text-anchor="middle" class="chip-label">PyTorch</text>
+    <rect x="395" y="60" width="110" height="30" rx="6" class="chip"/><text x="450" y="80" text-anchor="middle" class="chip-label">LLM Evals</text>
+    <rect x="510" y="60" width="120" height="30" rx="6" class="chip"/><text x="570" y="80" text-anchor="middle" class="chip-label">RAG / Agents</text>
+  </g>
+  <text x="450" y="48" text-anchor="middle" class="mono cat" fill="#ff00c1">AI / ML</text>
+
+  <!-- ==================== chips: web + data (bottom, amber) ==================== -->
+  <g class="mono">
+    <rect x="200" y="340" width="130" height="30" rx="6" class="chip"/><text x="265" y="360" text-anchor="middle" class="chip-label">React · Next</text>
+    <rect x="345" y="340" width="130" height="30" rx="6" class="chip"/><text x="410" y="360" text-anchor="middle" class="chip-label">NestJS · Node</text>
+    <rect x="490" y="340" width="100" height="30" rx="6" class="chip"/><text x="540" y="360" text-anchor="middle" class="chip-label">FastAPI</text>
+    <rect x="605" y="340" width="140" height="30" rx="6" class="chip"/><text x="675" y="360" text-anchor="middle" class="chip-label">PG·Redis·Kafka</text>
+  </g>
+  <text x="450" y="398" text-anchor="middle" class="mono cat" fill="#ffb000">WEB &amp; DATA</text>
+</svg>

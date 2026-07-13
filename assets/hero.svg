@@ -1,0 +1,131 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="900" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05060f"/>
+      <stop offset="0.5" stop-color="#0a0e1a"/>
+      <stop offset="1" stop-color="#05060f"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00fff9"/>
+      <stop offset="0.5" stop-color="#7df9ff"/>
+      <stop offset="1" stop-color="#0aff9d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00fff9" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00fff9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="320" rx="12"/></clipPath>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .grid-line { stroke: #123; stroke-width: 1; opacity: 0.5; }
+      .glitch-a { animation: shiftA 4s infinite steps(1); }
+      .glitch-b { animation: shiftB 4s infinite steps(1); }
+      @keyframes shiftA {
+        0%, 88%, 94%, 100% { transform: translate(0,0); opacity: 0; }
+        89% { transform: translate(-4px,2px); opacity: 0.8; }
+        91% { transform: translate(3px,-2px); opacity: 0.8; }
+        93% { transform: translate(-2px,1px); opacity: 0.6; }
+      }
+      @keyframes shiftB {
+        0%, 88%, 94%, 100% { transform: translate(0,0); opacity: 0; }
+        89% { transform: translate(4px,-2px); opacity: 0.8; }
+        91% { transform: translate(-3px,2px); opacity: 0.8; }
+        93% { transform: translate(2px,-1px); opacity: 0.6; }
+      }
+      .scan { animation: scan 6s linear infinite; }
+      @keyframes scan {
+        0% { transform: translateY(-20px); }
+        100% { transform: translateY(340px); }
+      }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+      .flicker { animation: flicker 8s linear infinite; }
+      @keyframes flicker {
+        0%, 100% { opacity: 1; }
+        92% { opacity: 1; } 93% { opacity: 0.4; } 94% { opacity: 1; }
+        96% { opacity: 0.7; } 97% { opacity: 1; }
+      }
+      .drift { animation: drift 20s linear infinite; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="320" fill="url(#bgGrad)"/>
+
+    <!-- perspective grid floor -->
+    <g class="drift">
+      <g class="grid-line">
+        <line x1="0" y1="240" x2="960" y2="240"/><line x1="0" y1="256" x2="960" y2="256"/>
+        <line x1="0" y1="274" x2="960" y2="274"/><line x1="0" y1="295" x2="960" y2="295"/>
+        <line x1="-30" y1="320" x2="90" y2="230"/><line x1="90" y1="320" x2="170" y2="230"/>
+        <line x1="210" y1="320" x2="250" y2="230"/><line x1="330" y1="320" x2="330" y2="230"/>
+        <line x1="450" y1="320" x2="410" y2="230"/><line x1="570" y1="320" x2="490" y2="230"/>
+        <line x1="690" y1="320" x2="570" y2="230"/><line x1="810" y1="320" x2="650" y2="230"/>
+        <line x1="930" y1="320" x2="730" y2="230"/><line x1="990" y1="320" x2="810" y2="230"/>
+      </g>
+    </g>
+    <rect x="0" y="225" width="900" height="20" fill="#05060f" opacity="0.6"/>
+
+    <!-- ambient glow -->
+    <ellipse cx="450" cy="140" rx="420" ry="150" fill="url(#glow)"/>
+
+    <!-- orbiting particles -->
+    <circle r="2" fill="#00fff9" opacity="0.9">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M 120 60 C 300 20 600 20 780 60 C 600 100 300 100 120 60 Z"/>
+    </circle>
+    <circle r="1.5" fill="#ff00c1" opacity="0.8">
+      <animateMotion dur="13s" repeatCount="indefinite" path="M 780 200 C 600 240 300 240 120 200 C 300 160 600 160 780 200 Z"/>
+    </circle>
+    <circle r="1.5" fill="#0aff9d" opacity="0.8">
+      <animateMotion dur="11s" repeatCount="indefinite" path="M 100 160 C 300 60 600 260 800 150 C 600 40 300 260 100 160 Z"/>
+    </circle>
+
+    <!-- HUD corner brackets -->
+    <g stroke="#00fff9" stroke-width="2" opacity="0.7">
+      <path d="M 20 40 V 20 H 40"/><path d="M 860 20 H 880 V 40"/>
+      <path d="M 880 280 V 300 H 860"/><path d="M 40 300 H 20 V 280"/>
+    </g>
+    <g class="mono" fill="#2dd4bf" font-size="10" opacity="0.7">
+      <text x="50" y="30">SYS.BOOT :: OK</text>
+      <text x="770" y="30">NODE :: NCSU-01</text>
+      <text x="50" y="296">UPTIME :: ∞</text>
+      <text x="700" y="296">STATUS :: BUILDING</text>
+    </g>
+
+    <!-- glitch layers -->
+    <g class="glitch-a">
+      <text x="450" y="150" text-anchor="middle" class="mono" font-size="58" font-weight="bold" fill="#ff00c1" opacity="0">ADITYA KULKARNI</text>
+    </g>
+    <g class="glitch-b">
+      <text x="450" y="150" text-anchor="middle" class="mono" font-size="58" font-weight="bold" fill="#00fff9" opacity="0">ADITYA KULKARNI</text>
+    </g>
+
+    <!-- main name -->
+    <g class="flicker">
+      <text x="450" y="150" text-anchor="middle" class="mono" font-size="58" font-weight="bold" fill="url(#nameGrad)" filter="url(#neon)">ADITYA KULKARNI</text>
+    </g>
+
+    <!-- subtitle -->
+    <text x="450" y="192" text-anchor="middle" class="mono" font-size="17" fill="#8b949e" letter-spacing="3">AI × SYSTEMS ENGINEER</text>
+
+    <!-- tagline w/ cursor -->
+    <text x="450" y="222" text-anchor="middle" class="mono" font-size="13" fill="#0aff9d">&gt; shipping intelligence into production_<tspan class="cursor" fill="#0aff9d">█</tspan></text>
+
+    <!-- scanline -->
+    <g class="scan">
+      <rect x="0" y="0" width="900" height="3" fill="#00fff9" opacity="0.08"/>
+      <rect x="0" y="3" width="900" height="1" fill="#00fff9" opacity="0.2"/>
+    </g>
+
+    <!-- frame -->
+    <rect x="1" y="1" width="898" height="318" rx="12" stroke="#1b2a3a" stroke-width="2"/>
+  </g>
+</svg>

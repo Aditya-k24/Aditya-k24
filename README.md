@@ -1,88 +1,68 @@
-<h1 align="center">Hey 👋 I'm Aditya!</h1>
-
-<h3 align="center">MS CS @ NC State &nbsp;·&nbsp; AI / Full-Stack Engineer &nbsp;·&nbsp; Building at the intersection of AI & Systems</h3>
-
-###
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Product+Engineer+Intern+%40+Isomer+AI;Graduate+Research+Assistant+%40+NC+State;Semantic+Search+%7C+LLM+Evals+%7C+Agentic+Systems;6%2B+Hackathon+Winner+%F0%9F%8F%86+%7C+IEEE+Published;394%2B+production+commits+and+counting+%F0%9F%9A%80" alt="Typing SVG" />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=nestjs" height="40" alt="nestjs logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="fastapi logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=spring" height="40" alt="spring logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=pytorch" height="40" alt="pytorch logo" />
+  <img src="assets/hero.svg" width="100%" alt="ADITYA KULKARNI — AI × Systems Engineer" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=kubernetes" height="40" alt="kubernetes logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=aws" height="40" alt="aws logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=gcp" height="40" alt="gcp logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=redis" height="40" alt="redis logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=mongodb" height="40" alt="mongodb logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=kafka" height="40" alt="kafka logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=grafana" height="40" alt="grafana logo" />
-  <img width="8" />
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo" />
-</div>
-
-###
-
-<div align="center">
-  <a href="https://linkedin.com/in/aditya-kulkarni-355b81217">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-  </a>
-  <a href="https://www.kulkarniaditya.com">
-    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=safari&label=&color=ff6b6b&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio logo" />
-  </a>
-  <a href="mailto:adityakulkarnius@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=EA4335&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" />
-  </a>
-</div>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aditya-k24&show_icons=true&theme=dracula&hide_border=false&border_radius=5&count_private=true&include_all_commits=true" height="150" alt="stats graph" />
-  <img src="https://streak-stats.demolab.com?user=Aditya-k24&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph" />
+  <img src="assets/terminal.svg" width="100%" alt="whoami — MS CS @ NC State, Product Engineer Intern @ Isomer AI, IEEE published, 6+ hackathon wins" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya-k24&layout=compact&theme=dracula&hide_border=false&border_radius=5&langs_count=8" height="150" alt="top languages" />
+  <img src="assets/divider.svg" width="100%" alt="" />
 </div>
 
-###
+<h3 align="center"><code>⚡ DEPLOYED SYSTEMS — click to inspect</code></h3>
+
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/Aditya-k24/KubeServe">
+        <img src="assets/card-kubeserve.svg" width="100%" alt="KubeServe — Kubernetes-native LLM inference autoscaling" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Aditya-k24/sieve">
+        <img src="assets/card-sieve.svg" width="100%" alt="sieve — terminal-native router for Claude Code" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Aditya-k24/llm-eval-harness">
+        <img src="assets/card-evals.svg" width="100%" alt="llm-eval-harness — LLM evaluation harness" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Aditya-k24/VeryBerryLab">
+        <img src="assets/card-berry.svg" width="100%" alt="VeryBerryLab — interactive phenotyping dashboard" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aditya-k24&theme=dracula&area=true&hide_border=false&radius=8" width="100%" alt="contribution graph" />
+  <img src="assets/divider.svg" width="100%" alt="" />
 </div>
 
-###
+<div align="center">
+  <img src="assets/circuit.svg" width="100%" alt="Tech matrix — TypeScript, Python, Java, C++, PyTorch, LLM evals, RAG, Kubernetes, Docker, AWS, GCP, React, NestJS, FastAPI, Postgres, Redis, Kafka" />
+</div>
+
+<div align="center">
+  <img src="assets/divider.svg" width="100%" alt="" />
+</div>
+
+<h3 align="center"><code>📡 OPEN CHANNELS</code></h3>
+
+<div align="center">
+  <a href="https://linkedin.com/in/aditya-kulkarni-355b81217"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="https://www.kulkarniaditya.com"><img src="assets/btn-portfolio.svg" alt="Portfolio" /></a>
+  &nbsp;
+  <a href="mailto:adityakulkarnius@gmail.com"><img src="assets/btn-mail.svg" alt="Email" /></a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="assets/footer.svg" width="100%" alt="system alive — see you in the commit log" />
+</div>
