@@ -1,24 +1,16 @@
-<svg width="440" height="170" viewBox="0 0 440 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="440" height="190" viewBox="0 0 440 190" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs><style>
-    .mono { font-family: 'Courier New', Courier, monospace; }
-    .led { animation: led 1.6s ease-in-out infinite; }
-    @keyframes led { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
-    .sweep { animation: sweep 5s linear infinite; }
-    @keyframes sweep { from { transform: translateX(-120px); } to { transform: translateX(560px); } }
-  </style>
-  <clipPath id="cf"><rect width="440" height="170" rx="10"/></clipPath>
-  </defs>
-  <g clip-path="url(#cf)">
-    <rect width="440" height="170" rx="10" fill="#0a0e1a"/>
-    <g class="sweep"><rect x="0" y="0" width="60" height="170" fill="#ff00c1" opacity="0.04" transform="skewX(-20)"/></g>
-    <rect x="0" y="0" width="5" height="170" fill="#ff00c1"/>
-    <circle cx="415" cy="24" r="5" fill="#ff00c1" class="led"/>
-    <text x="408" y="29" text-anchor="end" class="mono" font-size="10" fill="#ff00c1" letter-spacing="1">JUDGING</text>
-    <text x="24" y="38" class="mono" font-size="20" font-weight="bold" fill="#e6edf3">llm-eval-harness</text>
-    <text x="24" y="68" class="mono" font-size="12" fill="#8b949e">Evaluation harness for LLMs — benchmark, score,</text>
-    <text x="24" y="88" class="mono" font-size="12" fill="#8b949e">and regression-test model behavior</text>
-    <text x="24" y="122" class="mono" font-size="11" fill="#ff00c1">[ python ] [ evals ] [ llm ]</text>
-    <text x="24" y="150" class="mono" font-size="11" fill="#4d5866">└─&gt; click to open ::</text>
-    <rect x="1" y="1" width="438" height="168" rx="10" stroke="#1b2a3a" stroke-width="2"/>
-  </g>
+    .serif { font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif; }
+    .tw { animation: tw 4.8s ease-in-out infinite; }
+    @keyframes tw { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+  </style></defs>
+  <rect x="1" y="1" width="438" height="188" rx="12" fill="#070b1e" stroke="#28304f" stroke-width="2"/>
+  <circle cx="344" cy="170" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="5.1s" begin="0.4s" repeatCount="indefinite"/></circle><circle cx="379" cy="127" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="5.4s" begin="1.4s" repeatCount="indefinite"/></circle><circle cx="338" cy="90" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="2.9s" begin="3.4s" repeatCount="indefinite"/></circle><circle cx="346" cy="140" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="4.4s" begin="2.4s" repeatCount="indefinite"/></circle><circle cx="283" cy="153" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.2s" begin="0.5s" repeatCount="indefinite"/></circle><circle cx="362" cy="77" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="4.8s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="311" cy="161" r="1" fill="#dfe6f5" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+  <text x="30" y="46" class="serif" font-size="26" fill="#a693d8" opacity="0.9">III</text>
+  <text x="30" y="86" class="serif" font-size="21" fill="#dfe6f5">llm-eval-harness</text>
+  <text x="30" y="115" class="serif" font-size="13.5" font-style="italic" fill="#8b93ad">An examination hall for language models —</text>
+  <text x="30" y="135" class="serif" font-size="13.5" font-style="italic" fill="#8b93ad">benchmark, score, and regression-test behavior.</text>
+  <line x1="30" y1="155" x2="90" y2="155" stroke="#a693d8" stroke-width="1" opacity="0.6"/>
+  <text x="30" y="174" class="serif" font-size="11" letter-spacing="2" fill="#a693d8">PYTHON · EVALS · LLM</text>
+  <text x="410" y="50" text-anchor="end" class="serif tw" font-size="16" fill="#a693d8">✦</text>
 </svg>

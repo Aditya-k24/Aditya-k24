@@ -1,16 +1,16 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="ADITYA KULKARNI — AI × Systems Engineer" />
+  <img src="assets/hero.svg" width="100%" alt="The Observatory of Aditya Kulkarni — engineer of thinking machines, student of scale" />
 </div>
 
 <div align="center">
-  <img src="assets/terminal.svg" width="100%" alt="whoami — MS CS @ NC State, Product Engineer Intern @ Isomer AI, IEEE published, 6+ hackathon wins" />
+  <img src="assets/ledger.svg" width="100%" alt="Field notes — MS CS @ NC State, Product Engineer Intern @ Isomer AI, IEEE published, 6 hackathon wins" />
 </div>
 
 <div align="center">
   <img src="assets/divider.svg" width="100%" alt="" />
 </div>
 
-<h3 align="center"><code>⚡ DEPLOYED SYSTEMS — click to inspect</code></h3>
+<h4 align="center"><em>Selected Works — click any to explore</em></h4>
 
 <table align="center">
   <tr>
@@ -21,14 +21,14 @@
     </td>
     <td>
       <a href="https://github.com/Aditya-k24/sieve">
-        <img src="assets/card-sieve.svg" width="100%" alt="sieve — terminal-native router for Claude Code" />
+        <img src="assets/card-sieve.svg" width="100%" alt="sieve — a discerning router for Claude Code" />
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/Aditya-k24/llm-eval-harness">
-        <img src="assets/card-evals.svg" width="100%" alt="llm-eval-harness — LLM evaluation harness" />
+        <img src="assets/card-evals.svg" width="100%" alt="llm-eval-harness — an examination hall for language models" />
       </a>
     </td>
     <td>
@@ -44,14 +44,12 @@
 </div>
 
 <div align="center">
-  <img src="assets/circuit.svg" width="100%" alt="Tech matrix — TypeScript, Python, Java, C++, PyTorch, LLM evals, RAG, Kubernetes, Docker, AWS, GCP, React, NestJS, FastAPI, Postgres, Redis, Kafka" />
+  <img src="assets/astrolabe.svg" width="100%" alt="The Astrolabe — languages: Python, TypeScript, Java, C++; intelligence: PyTorch, LLM evals, RAG, semantic search, FastAPI; infrastructure: Kubernetes, Docker, AWS, GCP, Kafka, Postgres, Redis, Grafana" />
 </div>
 
 <div align="center">
   <img src="assets/divider.svg" width="100%" alt="" />
 </div>
-
-<h3 align="center"><code>📡 OPEN CHANNELS</code></h3>
 
 <div align="center">
   <a href="https://linkedin.com/in/aditya-kulkarni-355b81217"><img src="assets/btn-linkedin.svg" alt="LinkedIn" /></a>
@@ -64,5 +62,5 @@
 <br/>
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="system alive — see you in the commit log" />
+  <img src="assets/footer.svg" width="100%" alt="Somewhere, something incredible is waiting to be known — Carl Sagan" />
 </div>
