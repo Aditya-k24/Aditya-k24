@@ -1,10 +1,9 @@
-<svg width="900" height="30" viewBox="0 0 900 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs><style>
-    .shimmer { animation: sh 5s ease-in-out infinite; }
-    @keyframes sh { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
-  </style></defs>
-  <line x1="80" y1="15" x2="420" y2="15" stroke="#28304f" stroke-width="1"/>
-  <line x1="480" y1="15" x2="820" y2="15" stroke="#28304f" stroke-width="1"/>
-  <text x="450" y="20" text-anchor="middle" font-size="13" fill="#a693d8" class="shimmer">✦</text>
-  <circle cx="80" cy="15" r="1.5" fill="#8b93ad"/><circle cx="820" cy="15" r="1.5" fill="#8b93ad"/>
+<svg width="900" height="26" viewBox="0 0 900 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dg" x1="240" y1="0" x2="660" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f9dde" stop-opacity="0"/><stop offset="0.5" stop-color="#5a6fd4"/><stop offset="1" stop-color="#8b7fd4" stop-opacity="0"/>
+    </linearGradient>
+    <style>.sh { animation: sh 6s ease-in-out infinite; } @keyframes sh { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }</style>
+  </defs>
+  <path class="sh" d="M 240 13 C 340 9 380 17 450 13 C 520 9 560 17 660 13" stroke="url(#dg)" stroke-width="3" stroke-linecap="round" fill="none"/>
 </svg>

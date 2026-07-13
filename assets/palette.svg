@@ -1,0 +1,59 @@
+<svg width="900" height="430" viewBox="0 0 900 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>
+    .serif { font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif; }
+    .sway { animation: sway 10s ease-in-out infinite; transform-origin: 320px 240px; }
+    @keyframes sway { 0%,100% { transform: rotate(-1.2deg); } 50% { transform: rotate(1.2deg); } }
+  </style></defs>
+  <rect x="1" y="1" width="898" height="428" rx="14" fill="#13161f" stroke="#2a2f3d" stroke-width="2"/>
+
+  <text x="450" y="46" text-anchor="middle" class="serif" font-size="13" letter-spacing="6" fill="#8a8f9e">THE PALETTE</text>
+  <line x1="410" y1="60" x2="490" y2="60" stroke="#2a2f3d" stroke-width="1"/>
+
+  <!-- wooden palette board -->
+  <g class="sway">
+    <path d="M 320 110
+             C 430 100 505 150 500 220
+             C 497 262 470 290 430 305
+             C 455 330 452 366 420 382
+             C 350 412 240 400 185 350
+             C 130 300 135 200 190 150
+             C 225 120 270 113 320 110 Z"
+          fill="#242b3d" stroke="#2a2f3d" stroke-width="2"/>
+    <ellipse cx="255" cy="205" rx="24" ry="19" fill="#13161f"/>
+    <!-- daubs on the board -->
+    <path d="M 329 160 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#4f9dde" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="5.9s" repeatCount="indefinite"/></path><circle cx="342" cy="157" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="354" y1="160" x2="382" y2="148" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="388" y="152" class="serif" font-size="13" fill="#eae7de" text-anchor="start">TypeScript</text>
+    <path d="M 397 200 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#4f9dde" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="4.3s" repeatCount="indefinite"/></path><circle cx="410" cy="197" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="422" y1="200" x2="446" y2="190" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="452" y="194" class="serif" font-size="13" fill="#eae7de" text-anchor="start">Python</text>
+    <path d="M 379 260 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#4f9dde" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="6.8s" repeatCount="indefinite"/></path><circle cx="392" cy="257" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="404" y1="260" x2="430" y2="254" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="436" y="258" class="serif" font-size="13" fill="#eae7de" text-anchor="start">Java · C++</text>
+    <path d="M 219 290 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#8b7fd4" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="6.2s" repeatCount="indefinite"/></path><circle cx="232" cy="287" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="216" y1="290" x2="192" y2="318" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="186" y="322" class="serif" font-size="13" fill="#eae7de" text-anchor="end">PyTorch</text>
+    <path d="M 289 320 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#8b7fd4" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="5.4s" repeatCount="indefinite"/></path><circle cx="302" cy="317" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="286" y1="320" x2="288" y2="362" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="282" y="366" class="serif" font-size="13" fill="#eae7de" text-anchor="end">RAG · Agents</text>
+    <path d="M 359 330 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#8b7fd4" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="6.2s" repeatCount="indefinite"/></path><circle cx="372" cy="327" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="384" y1="330" x2="394" y2="364" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="400" y="368" class="serif" font-size="13" fill="#eae7de" text-anchor="start">LLM Evals</text>
+    <path d="M 204 150 q -3 -12 8 -13 q 13 -2 15 8 q 2 11 -9 13 q -12 2 -14 -8 Z" fill="#3ec6b8" opacity="0.92"><animate attributeName="opacity" values="0.92;0.65;0.92" dur="4.3s" repeatCount="indefinite"/></path><circle cx="217" cy="147" r="2.6" fill="#ffffff" opacity="0.25"/><line x1="201" y1="150" x2="184" y2="118" stroke="#8a8f9e" stroke-width="0.7" opacity="0.5"/><text x="178" y="122" class="serif" font-size="13" fill="#eae7de" text-anchor="end">Semantic Search</text>
+  </g>
+
+  <!-- brushes, resting -->
+  <g transform="translate(560,88) rotate(24)">
+    <rect x="0" y="0" width="7" height="150" rx="3" fill="#3a4258"/>
+    <rect x="-1" y="146" width="9" height="16" rx="2" fill="#9aa3b8"/>
+    <path d="M 0 162 q 3.5 26 3.5 30 q 0 -4 3.5 -30 Z" fill="#4f9dde"/>
+  </g>
+  <g transform="translate(620,74) rotate(30)">
+    <rect x="0" y="0" width="7" height="170" rx="3" fill="#3a4258"/>
+    <rect x="-1" y="166" width="9" height="16" rx="2" fill="#9aa3b8"/>
+    <path d="M 0 182 q 3.5 28 3.5 33 q 0 -5 3.5 -33 Z" fill="#8b7fd4"/>
+  </g>
+
+  <!-- swatch tests, right side -->
+  <g class="serif" font-size="13">
+    <rect x="560" y="230" width="290" height="34" rx="4" fill="#3ec6b8" opacity="0.85"/>
+    <text x="576" y="252" fill="#23262e" font-weight="bold">Kubernetes · Docker · KEDA</text>
+    <rect x="560" y="276" width="290" height="34" rx="4" fill="#5a6fd4" opacity="0.85"/>
+    <text x="576" y="298" fill="#eae7de" font-weight="bold">AWS · GCP · Kafka</text>
+    <rect x="560" y="322" width="290" height="34" rx="4" fill="#4f9dde" opacity="0.85"/>
+    <text x="576" y="344" fill="#23262e" font-weight="bold">Postgres · Redis · Grafana</text>
+    <rect x="560" y="368" width="290" height="34" rx="4" fill="#8b7fd4" opacity="0.85"/>
+    <text x="576" y="390" fill="#eae7de" font-weight="bold">React · Next · NestJS · FastAPI</text>
+    <text x="560" y="218" fill="#8a8f9e" font-size="11" letter-spacing="3">SWATCH TESTS — INFRASTRUCTURE &amp; WEB</text>
+  </g>
+
+  <circle cx="133" cy="415" r="1.0" fill="#a8c8ec" opacity="0.80"/><circle cx="431" cy="385" r="2.0" fill="#5a6fd4" opacity="0.68"/><circle cx="221" cy="399" r="1.2" fill="#4f9dde" opacity="0.75"/><circle cx="394" cy="384" r="1.9" fill="#3ec6b8" opacity="0.57"/><circle cx="461" cy="409" r="1.3" fill="#8b7fd4" opacity="0.46"/><circle cx="291" cy="407" r="1.4" fill="#a8c8ec" opacity="0.56"/><circle cx="120" cy="412" r="1.4" fill="#5a6fd4" opacity="0.68"/><circle cx="435" cy="398" r="2.0" fill="#a8c8ec" opacity="0.42"/><circle cx="130" cy="398" r="2.0" fill="#3ec6b8" opacity="0.65"/><circle cx="417" cy="385" r="1.2" fill="#a8c8ec" opacity="0.71"/><circle cx="316" cy="391" r="1.6" fill="#a8c8ec" opacity="0.59"/><circle cx="417" cy="411" r="1.1" fill="#3ec6b8" opacity="0.49"/>
+</svg>

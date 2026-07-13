@@ -1,39 +1,39 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="The Observatory of Aditya Kulkarni — engineer of thinking machines, student of scale" />
+  <img src="assets/hero.svg" width="100%" alt="From the studio of Aditya Kulkarni — software engineer working in AI and distributed systems" />
 </div>
 
 <div align="center">
-  <img src="assets/ledger.svg" width="100%" alt="Field notes — MS CS @ NC State, Product Engineer Intern @ Isomer AI, IEEE published, 6 hackathon wins" />
+  <img src="assets/statement.svg" width="100%" alt="Artist's statement — I work where intelligence meets infrastructure. MS CS @ NC State, Product Engineer Intern @ Isomer AI, IEEE published, six hackathon wins" />
 </div>
 
 <div align="center">
   <img src="assets/divider.svg" width="100%" alt="" />
 </div>
 
-<h4 align="center"><em>Selected Works — click any to explore</em></h4>
+<h4 align="center"><em>The Gallery — click any piece to view</em></h4>
 
 <table align="center">
   <tr>
     <td>
       <a href="https://github.com/Aditya-k24/KubeServe">
-        <img src="assets/card-kubeserve.svg" width="100%" alt="KubeServe — Kubernetes-native LLM inference autoscaling" />
+        <img src="assets/card-kubeserve.svg" width="100%" alt="KubeServe, 2025 — Kubernetes-native LLM inference autoscaling. Mixed media: Python, FastAPI, Kopf, KEDA, Prometheus" />
       </a>
     </td>
     <td>
       <a href="https://github.com/Aditya-k24/sieve">
-        <img src="assets/card-sieve.svg" width="100%" alt="sieve — a discerning router for Claude Code" />
+        <img src="assets/card-sieve.svg" width="100%" alt="sieve, 2025 — a discerning router for Claude Code. Mixed media: Python, Ollama, Claude, a terminal" />
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://github.com/Aditya-k24/llm-eval-harness">
-        <img src="assets/card-evals.svg" width="100%" alt="llm-eval-harness — an examination hall for language models" />
+        <img src="assets/card-evals.svg" width="100%" alt="llm-eval-harness, 2025 — an examination hall for language models. Mixed media: Python, benchmarks, patience" />
       </a>
     </td>
     <td>
       <a href="https://github.com/Aditya-k24/VeryBerryLab">
-        <img src="assets/card-berry.svg" width="100%" alt="VeryBerryLab — interactive phenotyping dashboard" />
+        <img src="assets/card-berry.svg" width="100%" alt="VeryBerryLab, 2025 — strawberry phenotyping dashboard. Mixed media: Python, Dash, Kruskal–Wallis" />
       </a>
     </td>
   </tr>
@@ -44,7 +44,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/astrolabe.svg" width="100%" alt="The Astrolabe — languages: Python, TypeScript, Java, C++; intelligence: PyTorch, LLM evals, RAG, semantic search, FastAPI; infrastructure: Kubernetes, Docker, AWS, GCP, Kafka, Postgres, Redis, Grafana" />
+  <img src="assets/palette.svg" width="100%" alt="The palette — TypeScript, Python, Java, C++, PyTorch, RAG, LLM evals, semantic search, Kubernetes, Docker, KEDA, AWS, GCP, Kafka, Postgres, Redis, Grafana, React, Next, NestJS, FastAPI" />
 </div>
 
 <div align="center">
@@ -62,5 +62,5 @@
 <br/>
 
 <div align="center">
-  <img src="assets/footer.svg" width="100%" alt="Somewhere, something incredible is waiting to be known — Carl Sagan" />
+  <img src="assets/footer.svg" width="100%" alt="Art is never finished, only abandoned — Leonardo da Vinci. So I ship." />
 </div>
