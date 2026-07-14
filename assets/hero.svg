@@ -1,54 +1,73 @@
-<svg width="900" height="380" viewBox="0 0 900 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aditya Kulkarni — AI Engineer and Systems Builder">
   <defs>
-    <linearGradient id="swashg" x1="120" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#4f9dde"/><stop offset="0.45" stop-color="#5a6fd4"/><stop offset="1" stop-color="#8b7fd4"/>
-    </linearGradient>
-    <linearGradient id="wallg" x1="0" y1="0" x2="0" y2="380" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#13161f"/><stop offset="1" stop-color="#181c28"/>
-    </linearGradient>
-    <clipPath id="hframe"><rect width="900" height="380" rx="14"/></clipPath>
-    <clipPath id="wipe"><rect x="60" y="120" width="0" height="190">
-      <animate attributeName="width" from="0" to="800" begin="0.3s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1"/></rect>
-    </clipPath>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#22C55E" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#22C55E" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.2" fill="#1E293B"/>
+    </pattern>
+    <clipPath id="frame"><rect width="900" height="300" rx="14"/></clipPath>
     <style>
-      .serif { font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif; }
-      .rise { opacity: 0; animation: rise 1.2s ease-out forwards; }
-      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-      .drift { animation: drift 9s ease-in-out infinite; }
-      @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(0,-5px); } }
-      .shimmer { animation: shimmer 7s ease-in-out infinite; }
-      @keyframes shimmer { 0%,100% { opacity: 0.85; } 50% { opacity: 1; } }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace; }
+      .up { opacity: 0; transform: translateY(10px); animation: up 0.7s cubic-bezier(0.16,1,0.3,1) forwards; }
+      @keyframes up { to { opacity: 1; transform: translateY(0); } }
+      .bar { animation: bar 1s cubic-bezier(0.16,1,0.3,1) 0.9s forwards; }
+      @keyframes bar { from { width: 0; } to { width: 88px; } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+      .breathe { animation: breathe 8s ease-in-out infinite; }
+      @keyframes breathe { 0%,100% { opacity: 0.7; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .up { animation: none; opacity: 1; transform: none; }
+        .bar { animation: none; width: 88px; }
+        .pulse, .breathe { animation: none; }
+      }
     </style>
   </defs>
-  <g clip-path="url(#hframe)">
-    <rect width="900" height="380" fill="url(#wallg)"/>
 
-    <!-- faint under-sketch circles (pencil guides) -->
-    <g stroke="#8a8f9e" fill="none" opacity="0.12">
-      <circle cx="150" cy="90" r="60"/><circle cx="760" cy="300" r="80"/>
-      <line x1="60" y1="330" x2="840" y2="330"/><line x1="60" y1="52" x2="840" y2="52"/>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="300" fill="#0F172A"/>
+    <rect x="520" y="0" width="380" height="300" fill="url(#dots)"/>
+    <rect width="900" height="300" fill="url(#glow)" class="breathe"/>
+
+    <!-- status pill -->
+    <g class="up" style="animation-delay:0.1s">
+      <rect x="60" y="52" width="196" height="30" rx="15" fill="#1E293B"/>
+      <circle cx="78" cy="67" r="4" fill="#22C55E" class="pulse"/>
+      <text x="92" y="72" class="sans" font-size="13" font-weight="500" fill="#94A3B8">Open to opportunities</text>
     </g>
 
-    <!-- the big painted swash, wiped on like a brush pass -->
-    <g clip-path="url(#wipe)" class="shimmer">
-      <path d="M 90 200 C 150 116.0, 370.0 140.0, 450.0 158.0 S 740 182.0, 810 201 C 760 238.6, 540.0 260.0, 450.0 248.0 S 160 230.0, 90 200 Z" fill="url(#swashg)" opacity="0.92"/>
-      <path d="M 140 196 C 200 155.4, 370.0 167.0, 450.0 175.7 S 690 187.3, 760 196 C 710 216.24, 540.0 225.0, 450.0 219.2 S 210 210.5, 140 196 Z" fill="#a8c8ec" opacity="0.14"/>
+    <!-- name -->
+    <text x="58" y="148" class="sans up" font-size="54" font-weight="700" fill="#F8FAFC" letter-spacing="-1.5" style="animation-delay:0.25s">Aditya Kulkarni</text>
+
+    <!-- accent bar -->
+    <rect x="60" y="166" height="4" rx="2" fill="#22C55E" class="bar" width="0"/>
+
+    <!-- role -->
+    <text x="60" y="204" class="sans up" font-size="19" font-weight="500" fill="#94A3B8" style="animation-delay:0.45s">AI Engineer <tspan fill="#475569">·</tspan> Systems Builder <tspan fill="#475569">·</tspan> MS CS <tspan fill="#F8FAFC">@ NC State</tspan></text>
+
+    <!-- highlights -->
+    <g class="up" style="animation-delay:0.65s">
+      <rect x="60" y="228" width="128" height="28" rx="14" fill="#1E293B"/>
+      <text x="124" y="246" text-anchor="middle" class="sans" font-size="12.5" font-weight="500" fill="#94A3B8">Intern @ Isomer AI</text>
+      <rect x="198" y="228" width="118" height="28" rx="14" fill="#1E293B"/>
+      <text x="257" y="246" text-anchor="middle" class="sans" font-size="12.5" font-weight="500" fill="#94A3B8">IEEE Published</text>
+      <rect x="326" y="228" width="158" height="28" rx="14" fill="#1E293B"/>
+      <text x="405" y="246" text-anchor="middle" class="sans" font-size="12.5" font-weight="500" fill="#94A3B8">6× Hackathon Winner</text>
     </g>
 
-    <!-- paint drips from the stroke -->
-    <line x1="238" y1="212" x2="238" y2="212" stroke="#4f9dde" stroke-width="2.4" stroke-linecap="round" opacity="0.8"><animate attributeName="y2" from="212" to="246" begin="2.0s" dur="4s" fill="freeze"/></line><line x1="655" y1="212" x2="655" y2="212" stroke="#8b7fd4" stroke-width="2.4" stroke-linecap="round" opacity="0.8"><animate attributeName="y2" from="212" to="238" begin="1.7s" dur="4s" fill="freeze"/></line><line x1="410" y1="212" x2="410" y2="212" stroke="#3ec6b8" stroke-width="2.4" stroke-linecap="round" opacity="0.8"><animate attributeName="y2" from="212" to="232" begin="2.5s" dur="4s" fill="freeze"/></line>
+    <!-- terminal accent, right side -->
+    <g class="up" style="animation-delay:0.85s">
+      <rect x="600" y="80" width="240" height="120" rx="10" fill="#0B1222" stroke="#1E293B" stroke-width="1.5"/>
+      <circle cx="620" cy="100" r="4" fill="#334155"/><circle cx="634" cy="100" r="4" fill="#334155"/><circle cx="648" cy="100" r="4" fill="#334155"/>
+      <text x="620" y="134" class="mono" font-size="12.5" fill="#94A3B8"><tspan fill="#22C55E">$</tspan> make intelligence</text>
+      <text x="620" y="156" class="mono" font-size="12.5" fill="#94A3B8"><tspan fill="#22C55E">$</tspan> make it scale</text>
+      <text x="620" y="178" class="mono" font-size="12.5" fill="#22C55E">▊<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></text>
+    </g>
 
-    <!-- splatter -->
-    <g class="drift"><circle cx="98" cy="108" r="1.9" fill="#4f9dde" opacity="0.80"/><circle cx="134" cy="68" r="2.0" fill="#3ec6b8" opacity="0.40"/><circle cx="186" cy="134" r="1.3" fill="#3ec6b8" opacity="0.67"/><circle cx="226" cy="66" r="2.5" fill="#4f9dde" opacity="0.84"/><circle cx="92" cy="137" r="1.7" fill="#3ec6b8" opacity="0.62"/><circle cx="223" cy="110" r="2.7" fill="#4f9dde" opacity="0.64"/><circle cx="240" cy="94" r="2.4" fill="#4f9dde" opacity="0.63"/><circle cx="235" cy="105" r="2.3" fill="#8b7fd4" opacity="0.58"/><circle cx="311" cy="93" r="1.6" fill="#3ec6b8" opacity="0.70"/><circle cx="141" cy="112" r="2.3" fill="#8b7fd4" opacity="0.71"/><circle cx="152" cy="148" r="1.3" fill="#5a6fd4" opacity="0.43"/><circle cx="166" cy="144" r="2.1" fill="#4f9dde" opacity="0.73"/><circle cx="223" cy="139" r="1.8" fill="#8b7fd4" opacity="0.65"/><circle cx="225" cy="101" r="3.1" fill="#8b7fd4" opacity="0.59"/><circle cx="246" cy="65" r="2.8" fill="#a8c8ec" opacity="0.85"/><circle cx="285" cy="86" r="2.0" fill="#8b7fd4" opacity="0.36"/></g>
-    <g class="drift" style="animation-delay:-4s"><circle cx="690" cy="75" r="1.2" fill="#4f9dde" opacity="0.46"/><circle cx="645" cy="126" r="1.7" fill="#5a6fd4" opacity="0.39"/><circle cx="687" cy="109" r="2.6" fill="#5a6fd4" opacity="0.78"/><circle cx="642" cy="97" r="1.6" fill="#5a6fd4" opacity="0.83"/><circle cx="609" cy="76" r="1.4" fill="#3ec6b8" opacity="0.36"/><circle cx="786" cy="76" r="1.5" fill="#3ec6b8" opacity="0.56"/><circle cx="666" cy="111" r="2.7" fill="#a8c8ec" opacity="0.83"/><circle cx="740" cy="127" r="1.8" fill="#a8c8ec" opacity="0.55"/><circle cx="674" cy="69" r="2.1" fill="#4f9dde" opacity="0.45"/><circle cx="826" cy="100" r="1.2" fill="#a8c8ec" opacity="0.38"/><circle cx="570" cy="74" r="1.2" fill="#8b7fd4" opacity="0.66"/><circle cx="588" cy="79" r="1.7" fill="#8b7fd4" opacity="0.83"/><circle cx="727" cy="103" r="1.2" fill="#5a6fd4" opacity="0.85"/><circle cx="691" cy="104" r="1.2" fill="#4f9dde" opacity="0.72"/><circle cx="762" cy="103" r="2.2" fill="#a8c8ec" opacity="0.36"/><circle cx="817" cy="108" r="1.3" fill="#a8c8ec" opacity="0.81"/></g>
-    <circle cx="631" cy="315" r="1.6" fill="#4f9dde" opacity="0.70"/><circle cx="283" cy="318" r="1.2" fill="#3ec6b8" opacity="0.62"/><circle cx="645" cy="316" r="1.2" fill="#3ec6b8" opacity="0.75"/><circle cx="673" cy="337" r="1.2" fill="#a8c8ec" opacity="0.60"/><circle cx="612" cy="349" r="1.8" fill="#5a6fd4" opacity="0.48"/><circle cx="585" cy="348" r="1.4" fill="#8b7fd4" opacity="0.83"/><circle cx="355" cy="311" r="1.2" fill="#3ec6b8" opacity="0.52"/><circle cx="438" cy="349" r="1.6" fill="#4f9dde" opacity="0.59"/><circle cx="557" cy="340" r="1.1" fill="#4f9dde" opacity="0.80"/><circle cx="648" cy="338" r="1.5" fill="#3ec6b8" opacity="0.57"/>
-
-    <!-- title over the stroke -->
-    <text x="450" y="152" text-anchor="middle" class="serif rise" font-size="13" letter-spacing="7" fill="#8a8f9e" style="animation-delay:0.9s">FROM THE STUDIO OF</text>
-    <text x="450" y="222" text-anchor="middle" class="serif rise" font-size="50" font-style="italic" fill="#eae7de" style="animation-delay:1.2s">Aditya&#160;Kulkarni</text>
-    <text x="450" y="268" text-anchor="middle" class="serif rise" font-size="15" fill="#a8c8ec" style="animation-delay:1.6s" opacity="0.9">software engineer&#160;&#160;·&#160;&#160;working in artificial intelligence &amp; distributed systems</text>
-    <text x="450" y="316" text-anchor="middle" class="serif rise" font-size="14" font-style="italic" fill="#8a8f9e" style="animation-delay:2s">&#8220;Code is just paint that thinks.&#8221;</text>
-
-    <rect x="1" y="1" width="898" height="378" rx="14" stroke="#2a2f3d" stroke-width="2"/>
+    <rect x="0.75" y="0.75" width="898.5" height="298.5" rx="14" stroke="#1E293B" stroke-width="1.5"/>
   </g>
 </svg>
