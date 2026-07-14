@@ -45,16 +45,16 @@
 
 <div align="center">
   <a href="https://github.com/Aditya-k24/KubeServe">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-k24&repo=KubeServe&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="KubeServe — Kubernetes-native LLM inference autoscaling platform" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Aditya-k24&repo=KubeServe&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="KubeServe — Kubernetes-native LLM inference autoscaling platform" />
   </a>
   <a href="https://github.com/Aditya-k24/sieve">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-k24&repo=sieve&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="sieve — terminal-native router for Claude Code" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Aditya-k24&repo=sieve&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="sieve — terminal-native router for Claude Code" />
   </a>
   <a href="https://github.com/Aditya-k24/llm-eval-harness">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-k24&repo=llm-eval-harness&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="llm-eval-harness — LLM evaluation harness" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Aditya-k24&repo=llm-eval-harness&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="llm-eval-harness — LLM evaluation harness" />
   </a>
   <a href="https://github.com/Aditya-k24/VeryBerryLab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Aditya-k24&repo=VeryBerryLab&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="VeryBerryLab — interactive phenotyping dashboard" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Aditya-k24&repo=VeryBerryLab&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="VeryBerryLab — interactive phenotyping dashboard" />
   </a>
 </div>
 
@@ -63,7 +63,7 @@
 ## GitHub Analytics
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Aditya-k24&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0F172A&title_color=22C55E&text_color=94A3B8&icon_color=22C55E&ring_color=22C55E&border_radius=12" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Aditya-k24&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0F172A&title_color=22C55E&text_color=94A3B8&icon_color=22C55E&ring_color=22C55E&border_radius=12" alt="GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=Aditya-k24&hide_border=true&background=0F172A&stroke=1E293B&ring=22C55E&fire=22C55E&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22C55E&sideLabels=94A3B8&dates=64748B&border_radius=12" alt="Contribution streak" />
 </div>
 
