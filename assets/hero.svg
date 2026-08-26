@@ -12,8 +12,8 @@
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif; }
       .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace; }
-      .up { opacity: 0; transform: translateY(10px); animation: up 0.7s cubic-bezier(0.16,1,0.3,1) forwards; }
-      @keyframes up { to { opacity: 1; transform: translateY(0); } }
+      .up { animation: up 0.7s cubic-bezier(0.16,1,0.3,1) forwards; }
+      @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
       .bar { animation: bar 1s cubic-bezier(0.16,1,0.3,1) 0.9s forwards; }
       @keyframes bar { from { width: 0; } to { width: 88px; } }
       .pulse { animation: pulse 2.4s ease-in-out infinite; }
@@ -44,7 +44,7 @@
     <text x="58" y="148" class="sans up" font-size="54" font-weight="700" fill="#F8FAFC" letter-spacing="-1.5" style="animation-delay:0.25s">Aditya Kulkarni</text>
 
     <!-- accent bar -->
-    <rect x="60" y="166" height="4" rx="2" fill="#22C55E" class="bar" width="0"/>
+    <rect x="60" y="166" height="4" rx="2" fill="#22C55E" class="bar" width="88"/>
 
     <!-- role -->
     <text x="60" y="204" class="sans up" font-size="19" font-weight="500" fill="#94A3B8" style="animation-delay:0.45s">AI Engineer <tspan fill="#475569">·</tspan> Systems Builder <tspan fill="#475569">·</tspan> MS CS <tspan fill="#F8FAFC">@ NC State</tspan></text>
@@ -56,7 +56,7 @@
       <rect x="198" y="228" width="118" height="28" rx="14" fill="#1E293B"/>
       <text x="257" y="246" text-anchor="middle" class="sans" font-size="12.5" font-weight="500" fill="#94A3B8">IEEE Published</text>
       <rect x="326" y="228" width="158" height="28" rx="14" fill="#1E293B"/>
-      <text x="405" y="246" text-anchor="middle" class="sans" font-size="12.5" font-weight="500" fill="#94A3B8">6× Hackathon Winner</text>
+      <text x="405" y="246" text-anchor="middle" class="sans" font-size="12.5" font-weight="500" fill="#94A3B8">3× Hackathon Winner</text>
     </g>
 
     <!-- terminal accent, right side -->
