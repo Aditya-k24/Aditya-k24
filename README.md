@@ -1,49 +1,94 @@
-<h1 align="center">Hey 👋 I'm Aditya</h1>
-
-<h3 align="center">MS CS @ NC State &nbsp;·&nbsp; AI / Full-Stack Engineer &nbsp;·&nbsp; Building at the intersection of AI & Systems</h3>
-
-<br/>
+<div align="center">
+  <img src="assets/hero.svg" width="100%" alt="Aditya Kulkarni — AI Engineer · Systems Builder · MS CS @ NC State. Intern @ Isomer AI, IEEE Published, 3× Hackathon Winner" />
+</div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Product+Engineer+Intern+%40+Isomer+AI;Graduate+Research+Assistant+%40+NC+State;Semantic+Search+%7C+LLM+Evals+%7C+Agentic+Systems;IEEE+Published+%7C+3%C3%97+Hackathon+Winner" alt="Product Engineer Intern @ Isomer AI · Graduate Research Assistant @ NC State · Semantic Search, LLM Evals, Agentic Systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=720&height=45&lines=Building+LLM+infrastructure+that+scales;Semantic+search+%C2%B7+RAG+%C2%B7+agentic+systems;Kubernetes-native+AI+platforms;Currently+shipping+at+Isomer+AI" alt="Building LLM infrastructure that scales · semantic search, RAG, agentic systems" />
 </div>
 
 <br/>
 
+## About
+
+- 🎓 **MS Computer Science @ NC State** — Graduate Research Assistant, published in **IEEE**
+- 🔭 **Product Engineer Intern @ Isomer AI** — semantic search, LLM evaluation, agentic systems
+- ⚡ I build the plumbing that makes AI useful: **inference autoscaling, eval harnesses, RAG pipelines**
+- 🏆 **3× hackathon winner** — ship the smallest thing that proves the biggest idea
+
+<br/>
+
+## Tech Stack
+
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,java,cpp,react,nextjs,nestjs,fastapi,nodejs,pytorch&theme=dark" alt="Python, TypeScript, Java, C++, React, Next.js, NestJS, FastAPI, Node.js, PyTorch" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,postgres,redis,mongodb,kafka,grafana,git&theme=dark" alt="Docker, Kubernetes, AWS, GCP, PostgreSQL, Redis, MongoDB, Kafka, Grafana, Git" />
+
+**Languages**
+
+<img src="https://img.shields.io/badge/Python-1E293B?style=for-the-badge&logo=python&logoColor=22C55E" alt="Python" /> <img src="https://img.shields.io/badge/TypeScript-1E293B?style=for-the-badge&logo=typescript&logoColor=22C55E" alt="TypeScript" /> <img src="https://img.shields.io/badge/Java-1E293B?style=for-the-badge&logo=openjdk&logoColor=22C55E" alt="Java" /> <img src="https://img.shields.io/badge/C++-1E293B?style=for-the-badge&logo=cplusplus&logoColor=22C55E" alt="C++" />
+
+**AI / ML**
+
+<img src="https://img.shields.io/badge/PyTorch-1E293B?style=for-the-badge&logo=pytorch&logoColor=22C55E" alt="PyTorch" /> <img src="https://img.shields.io/badge/LLM_Evals-1E293B?style=for-the-badge&logo=openai&logoColor=22C55E" alt="LLM Evals" /> <img src="https://img.shields.io/badge/RAG_·_Agents-1E293B?style=for-the-badge&logo=langchain&logoColor=22C55E" alt="RAG and Agents" /> <img src="https://img.shields.io/badge/FastAPI-1E293B?style=for-the-badge&logo=fastapi&logoColor=22C55E" alt="FastAPI" />
+
+**Backend & Web**
+
+<img src="https://img.shields.io/badge/React-1E293B?style=for-the-badge&logo=react&logoColor=22C55E" alt="React" /> <img src="https://img.shields.io/badge/Next.js-1E293B?style=for-the-badge&logo=nextdotjs&logoColor=22C55E" alt="Next.js" /> <img src="https://img.shields.io/badge/NestJS-1E293B?style=for-the-badge&logo=nestjs&logoColor=22C55E" alt="NestJS" /> <img src="https://img.shields.io/badge/Node.js-1E293B?style=for-the-badge&logo=nodedotjs&logoColor=22C55E" alt="Node.js" /> <img src="https://img.shields.io/badge/Spring-1E293B?style=for-the-badge&logo=spring&logoColor=22C55E" alt="Spring" />
+
+**Cloud & Data**
+
+<img src="https://img.shields.io/badge/Kubernetes-1E293B?style=for-the-badge&logo=kubernetes&logoColor=22C55E" alt="Kubernetes" /> <img src="https://img.shields.io/badge/Docker-1E293B?style=for-the-badge&logo=docker&logoColor=22C55E" alt="Docker" /> <img src="https://img.shields.io/badge/AWS-1E293B?style=for-the-badge&logo=amazonwebservices&logoColor=22C55E" alt="AWS" /> <img src="https://img.shields.io/badge/GCP-1E293B?style=for-the-badge&logo=googlecloud&logoColor=22C55E" alt="Google Cloud" /> <img src="https://img.shields.io/badge/PostgreSQL-1E293B?style=for-the-badge&logo=postgresql&logoColor=22C55E" alt="PostgreSQL" /> <img src="https://img.shields.io/badge/Redis-1E293B?style=for-the-badge&logo=redis&logoColor=22C55E" alt="Redis" /> <img src="https://img.shields.io/badge/Kafka-1E293B?style=for-the-badge&logo=apachekafka&logoColor=22C55E" alt="Kafka" /> <img src="https://img.shields.io/badge/Grafana-1E293B?style=for-the-badge&logo=grafana&logoColor=22C55E" alt="Grafana" />
+
 </div>
 
 <br/>
+
+## Featured Projects
+
+<div align="center">
+  <a href="https://github.com/Aditya-k24/KubeServe">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Aditya-k24&repo=KubeServe&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="KubeServe — Kubernetes-native LLM inference autoscaling platform" />
+  </a>
+  <a href="https://github.com/Aditya-k24/sieve">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Aditya-k24&repo=sieve&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="sieve — terminal-native router for Claude Code" />
+  </a>
+  <a href="https://github.com/Aditya-k24/llm-eval-harness">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Aditya-k24&repo=llm-eval-harness&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="llm-eval-harness — LLM evaluation harness" />
+  </a>
+  <a href="https://github.com/Aditya-k24/VeryBerryLab">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=Aditya-k24&repo=VeryBerryLab&hide_border=true&bg_color=0F172A&title_color=F8FAFC&text_color=94A3B8&icon_color=22C55E&border_radius=12&description_lines_count=2" alt="VeryBerryLab — interactive phenotyping dashboard" />
+  </a>
+</div>
+
+<br/>
+
+## GitHub Analytics
+
+<div align="center">
+  <img height="170" src="https://github-stats-extended.vercel.app/api?username=Aditya-k24&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0F172A&title_color=22C55E&text_color=94A3B8&icon_color=22C55E&ring_color=22C55E&border_radius=12" alt="GitHub stats" />
+  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Aditya-k24&layout=compact&langs_count=8&hide_border=true&bg_color=0F172A&title_color=22C55E&text_color=94A3B8" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Aditya-k24/Aditya-k24/output/github-snake-dark.svg" width="100%" alt="Contribution graph snake animation" />
+</div>
+
+<br/>
+
+## Connect
 
 <div align="center">
   <a href="https://linkedin.com/in/aditya-kulkarni-355b81217">
-    <img src="https://img.shields.io/badge/LinkedIn-24292F?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-1E293B?style=for-the-badge&logo=linkedin&logoColor=22C55E" alt="LinkedIn" />
   </a>
-  &nbsp;
   <a href="https://www.kulkarniaditya.com">
-    <img src="https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge&logo=safari&logoColor=58A6FF" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-1E293B?style=for-the-badge&logo=safari&logoColor=22C55E" alt="Portfolio" />
   </a>
-  &nbsp;
   <a href="mailto:adityakulkarnius@gmail.com">
-    <img src="https://img.shields.io/badge/Email-24292F?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-1E293B?style=for-the-badge&logo=gmail&logoColor=22C55E" alt="Email" />
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aditya-k24&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&ring_color=58A6FF" alt="GitHub stats" />
-</div>
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Aditya-k24&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E" alt="Top languages" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph-eosin.vercel.app/graph?username=Aditya-k24&hide_border=true&bg_color=00000000&color=8B949E&line=58A6FF&point=8B949E&area=true&area_color=58A6FF&radius=8" width="100%" alt="Contribution activity graph" />
+  <sub><em>Ship the smallest thing that proves the biggest idea.</em></sub>
 </div>
