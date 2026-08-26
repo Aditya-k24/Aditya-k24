@@ -36,7 +36,6 @@
 
 <div align="center">
   <img height="160" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Aditya-k24&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&ring_color=58A6FF" alt="GitHub stats" />
-  <img height="160" src="https://streak-stats.demolab.com?user=Aditya-k24&hide_border=true&background=00000000&stroke=8B949E40&ring=58A6FF&fire=58A6FF&currStreakNum=58A6FF&sideNums=8B949E&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681" alt="Contribution streak" />
 </div>
 
 <div align="center">
