@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Pacman Graph
 
 on:
   schedule:
@@ -16,12 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate snake contribution graph
+      - name: Generate pacman contribution graph
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake-dark.svg?palette=github-dark&background=none&color_snake=#22C55E
+            dist/pacman-contribution-graph.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/pacman-contribution-graph-dark.svg?palette=github-dark&color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
